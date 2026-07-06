@@ -1,5 +1,14 @@
-body {background-color: rgb(167, 46, 46);}
+body 
+{
+    background-color: rgb(255, 0, 0);
+}
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
+
     height: 100vh;
     background-color: (rgb(167, 46, 46));
     color:rgb(255, 255, 255);
@@ -7,26 +16,32 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 div{
+
     Display: flex;
     width: 60%;
     justify-content: space-between;
+
 }
 p{
-    font-size: 25px;
+
+    font-size: 25px; font-family: Arial, Helvetica, sans-serif;
+
 }
 button{
+
     background-color: rgb(167, 42, 42);
     color: rgb(255, 255, 255);
-    padding: 14px;
+    padding: 20px;
     border: none;
-    border-radius: 17px;
+    border-radius: 20px;
 }
 button:hover{
+    
     background-color: rgb(167, 46, 46);
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1.2) rotate(4deg);
+transition: 0,3s;
 }
-button{
-    transition: o.3s;
-}
+

@@ -10,41 +10,41 @@ let body= document.querySelector('body')
 
 uno.onclick= function(){
     //cambiar el color de fondo
-    p.style.backgroundColor= 'rgb(167, 30, 30)'
+    p.style.backgroundColor= 'rgb(65, 20, 20)'
 }
 dos.onclick= function(){
-    //cambiar el contenido del parrafo
+    //cambiar el contenido 
     p.textContent= 'se modifico el parrafo'
 }
 tres.onclick= function(){
-    //cambiar el color de la letra del párrafo
-    p.style.color= 'Blue'
+    //cambiar el color de la letra 
+    p.style.color= 'slateblue'
 }
 cuatro.onclick= function(){
-    //cambiar el tipo de letra del párrafo
+    //cambiar el tipo de letra 
     p.style.fontFamily= 'IMPACT'
 }
 cinco.onclick= function(){
-//cambiar el tamaño del párrafo 
-p.style.fontSize= '50px'}
+//cambiar el tamaño 
+p.style.fontSize= '60px'}
 seis.onclick= function()
 {
     //reiniciar
     p.style.fontSize= '25px'
     p.style.fontFamily= 'arial'
-    p.style.backgroundColor= 'rgb(167, 42, 42)'
+    p.style.backgroundColor= 'rgb(255, 0, 0)'
+    p.style.color= 'rgb(255, 0, 0)'
     p.style.color= 'rgb(255, 255, 255)'
-    p.style.textContent= 'Este parrafo puede modificarse'
-    p.style.backgroundColor= 'rgb(141, 141, 141)'
-    p.style.color= 'rgb(0, 0, 0)'}
-    
-  { 
-      uno.style.background='rgb(141, 141, 141)'
-    dos.style.background='rgb(141, 141, 141)'
-    tres.style.background='rgb(141, 141, 141)'
-    cuatro.style.background='rgb(141, 141, 141)'
-    cinco.style.background='rgb(141, 141, 141)'
-    seis.style.background='rgb(141, 141, 141)'
-    siete.style.background='rgb(141, 141, 141)'
+    p.textContent = 'Este parrafo puede modificarse'
+}
+  
+  {  
+      uno.style.background='rgb(27, 27, 27)'
+    dos.style.background='rgb(27, 27, 27)'
+    tres.style.background='rgb(27, 27, 27)'
+    cuatro.style.background='rgb(27, 27, 27)'
+    cinco.style.background='rgb(27, 27, 27)'
+    seis.style.background='rgb(27, 27, 27)'
+    siete.style.background='rgb(27, 27, 27)'
 }
 
