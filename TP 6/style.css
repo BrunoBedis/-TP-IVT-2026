@@ -41,7 +41,7 @@ button{
 button:hover{
     
     background-color: rgb(167, 46, 46);
-    transform: scale(1.2) rotate(4deg);
-transition: 0,3s;
+    transform: scale(1.2) rotate(12deg);
+transition: 0,5s;
 }
 
