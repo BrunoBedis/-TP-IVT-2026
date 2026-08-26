@@ -1,0 +1,5 @@
+body{ background-color:black ;display: flex; justify-content: center; align-items: center; flex-direction: column; }
+button {size: 300px; padding: 20px;}
+p {color: wheat; font-size: 25px; font-family: Arial, Helvetica, sans-serif;border-radius: 20px;}
+button:hover {background-color: wheat;transform: scale(1.2) rotate(6deg);
+transition: 0,5s;}
